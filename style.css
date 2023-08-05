@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 745px;
+  max-height: max-content;
+  background-color: #b3ffff;
+  /* Radial gradient background - css3 */
+  background: radial-gradient(
+    rgba(179, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.3)
+  );
+  background-repeat: unset;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* all tthe texts are in the center */
+}
+#Container {
+  display: grid;
+  place-self: center;
+}
+.input {
+  place-self: center;
+}
+#nameDiv {
+  margin-top: 100px;
+}
+.input {
+  padding-top: 5px;
+  font-size: 25px;
+  color: rgb(69, 201, 157);
+  font-weight: 600;
+  font-family: "cursive";
+  margin: 10px;
+}
+
+#gender {
+  padding-right: 40px;
+}
+
+#color {
+  padding-right: 70px;
+}
+.input #enter {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  font-family: "Gill Sans";
+  background-color: rgb(69, 201, 157);
+  color: white;
+  margin: 15px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 50px auto;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+th {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(69, 201, 157);
+}
+
+td {
+  font-size: 15px;
+  font-weight: 600;
+}
